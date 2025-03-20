@@ -6,17 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FB585BE02D88CD3D00685A76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB585BDD2D88CD3D00685A76 /* ContentView.swift */; };
+		FB585BE12D88CD3D00685A76 /* FirstAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB585BDE2D88CD3D00685A76 /* FirstAppSwiftUIApp.swift */; };
+		FB585BE22D88CD3D00685A76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB585BDA2D88CD3D00685A76 /* Preview Assets.xcassets */; };
+		FB585BE32D88CD3D00685A76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB585BDC2D88CD3D00685A76 /* Assets.xcassets */; };
+		FB585BE52D89FA4700685A76 /* TextsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB585BE42D89FA4700685A76 /* TextsView.swift */; };
+		FBAE08762D8B11DB00568BF6 /* GameOfSquids.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBAE08752D8B11DA00568BF6 /* GameOfSquids.ttf */; };
+		FBAE08782D8B122800568BF6 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAE08772D8B122800568BF6 /* Fonts.swift */; };
+		FBAE087A2D8B1C1900568BF6 /* ButtonsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAE08792D8B1C1900568BF6 /* ButtonsViews.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		FB585BC92D88CCFE00685A76 /* FirstAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB585BDA2D88CD3D00685A76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB585BDC2D88CD3D00685A76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB585BDD2D88CD3D00685A76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB585BDE2D88CD3D00685A76 /* FirstAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppSwiftUIApp.swift; sourceTree = "<group>"; };
+		FB585BE42D89FA4700685A76 /* TextsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextsView.swift; sourceTree = "<group>"; };
+		FBAE08742D8B0EC500568BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FBAE08752D8B11DA00568BF6 /* GameOfSquids.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameOfSquids.ttf; sourceTree = "<group>"; };
+		FBAE08772D8B122800568BF6 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		FBAE08792D8B1C1900568BF6 /* ButtonsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		FB585BCB2D88CCFE00685A76 /* FirstAppSwiftUI */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FirstAppSwiftUI;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FB585BC62D88CCFE00685A76 /* Frameworks */ = {
@@ -32,7 +44,7 @@
 		FB585BC02D88CCFE00685A76 = {
 			isa = PBXGroup;
 			children = (
-				FB585BCB2D88CCFE00685A76 /* FirstAppSwiftUI */,
+				FB585BDF2D88CD3D00685A76 /* FirstAppSwiftUI */,
 				FB585BCA2D88CCFE00685A76 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +55,30 @@
 				FB585BC92D88CCFE00685A76 /* FirstAppSwiftUI.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FB585BDB2D88CD3D00685A76 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB585BDA2D88CD3D00685A76 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB585BDF2D88CD3D00685A76 /* FirstAppSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				FBAE08742D8B0EC500568BF6 /* Info.plist */,
+				FB585BDD2D88CD3D00685A76 /* ContentView.swift */,
+				FB585BE42D89FA4700685A76 /* TextsView.swift */,
+				FBAE08792D8B1C1900568BF6 /* ButtonsViews.swift */,
+				FBAE08772D8B122800568BF6 /* Fonts.swift */,
+				FB585BDE2D88CD3D00685A76 /* FirstAppSwiftUIApp.swift */,
+				FB585BDC2D88CD3D00685A76 /* Assets.xcassets */,
+				FBAE08752D8B11DA00568BF6 /* GameOfSquids.ttf */,
+				FB585BDB2D88CD3D00685A76 /* Preview Content */,
+			);
+			path = FirstAppSwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +95,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				FB585BCB2D88CCFE00685A76 /* FirstAppSwiftUI */,
 			);
 			name = FirstAppSwiftUI;
 			packageProductDependencies = (
@@ -109,6 +142,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB585BE22D88CD3D00685A76 /* Preview Assets.xcassets in Resources */,
+				FBAE08762D8B11DB00568BF6 /* GameOfSquids.ttf in Resources */,
+				FB585BE32D88CD3D00685A76 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBAE08782D8B122800568BF6 /* Fonts.swift in Sources */,
+				FB585BE02D88CD3D00685A76 /* ContentView.swift in Sources */,
+				FB585BE52D89FA4700685A76 /* TextsView.swift in Sources */,
+				FBAE087A2D8B1C1900568BF6 /* ButtonsViews.swift in Sources */,
+				FB585BE12D88CD3D00685A76 /* FirstAppSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +296,7 @@
 				DEVELOPMENT_TEAM = 7GRZBU3W5C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FirstAppSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +326,7 @@
 				DEVELOPMENT_TEAM = 7GRZBU3W5C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FirstAppSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
