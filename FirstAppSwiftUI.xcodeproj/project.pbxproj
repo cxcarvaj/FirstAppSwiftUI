@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB15E0DD2D8C5BD4004D7F02 /* ButtonGirlCoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15E0DC2D8C5AB8004D7F02 /* ButtonGirlCoding.swift */; };
+		FB15E0DF2D8C6644004D7F02 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15E0DE2D8C6644004D7F02 /* CustomButton.swift */; };
+		FB15E0E12D8C79B7004D7F02 /* JobsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15E0E02D8C79B7004D7F02 /* JobsCard.swift */; };
+		FB15E0E32D8C8011004D7F02 /* TimCookCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15E0E22D8C8011004D7F02 /* TimCookCard.swift */; };
+		FB15E0E52D8C8049004D7F02 /* SectionScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15E0E42D8C8049004D7F02 /* SectionScrollView.swift */; };
+		FB15E0E72D8D103F004D7F02 /* ComponentsView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15E0E62D8D103F004D7F02 /* ComponentsView1.swift */; };
+		FB15E0E92D8D2972004D7F02 /* pokemons.json in Resources */ = {isa = PBXBuildFile; fileRef = FB15E0E82D8D2972004D7F02 /* pokemons.json */; };
+		FB15E0EB2D8D29AD004D7F02 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15E0EA2D8D29AD004D7F02 /* Model.swift */; };
+		FB15E0EE2D8D2A8E004D7F02 /* PokemonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15E0ED2D8D2A8E004D7F02 /* PokemonListView.swift */; };
+		FB15E0F02D8D2C6B004D7F02 /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15E0EF2D8D2C6B004D7F02 /* PokemonCell.swift */; };
+		FB15E0F22D8D2DA1004D7F02 /* PokemonAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15E0F12D8D2DA1004D7F02 /* PokemonAvatar.swift */; };
 		FB585BE02D88CD3D00685A76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB585BDD2D88CD3D00685A76 /* ContentView.swift */; };
 		FB585BE12D88CD3D00685A76 /* FirstAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB585BDE2D88CD3D00685A76 /* FirstAppSwiftUIApp.swift */; };
 		FB585BE22D88CD3D00685A76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB585BDA2D88CD3D00685A76 /* Preview Assets.xcassets */; };
@@ -18,6 +29,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB15E0DC2D8C5AB8004D7F02 /* ButtonGirlCoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGirlCoding.swift; sourceTree = "<group>"; };
+		FB15E0DE2D8C6644004D7F02 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		FB15E0E02D8C79B7004D7F02 /* JobsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsCard.swift; sourceTree = "<group>"; };
+		FB15E0E22D8C8011004D7F02 /* TimCookCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimCookCard.swift; sourceTree = "<group>"; };
+		FB15E0E42D8C8049004D7F02 /* SectionScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionScrollView.swift; sourceTree = "<group>"; };
+		FB15E0E62D8D103F004D7F02 /* ComponentsView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView1.swift; sourceTree = "<group>"; };
+		FB15E0E82D8D2972004D7F02 /* pokemons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pokemons.json; sourceTree = "<group>"; };
+		FB15E0EA2D8D29AD004D7F02 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FB15E0ED2D8D2A8E004D7F02 /* PokemonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListView.swift; sourceTree = "<group>"; };
+		FB15E0EF2D8D2C6B004D7F02 /* PokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
+		FB15E0F12D8D2DA1004D7F02 /* PokemonAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonAvatar.swift; sourceTree = "<group>"; };
 		FB585BC92D88CCFE00685A76 /* FirstAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB585BDA2D88CD3D00685A76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB585BDC2D88CD3D00685A76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,6 +63,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB15E0EC2D8D29C1004D7F02 /* Pokedex */ = {
+			isa = PBXGroup;
+			children = (
+				FB15E0EF2D8D2C6B004D7F02 /* PokemonCell.swift */,
+				FB15E0EA2D8D29AD004D7F02 /* Model.swift */,
+				FB15E0E82D8D2972004D7F02 /* pokemons.json */,
+				FB15E0ED2D8D2A8E004D7F02 /* PokemonListView.swift */,
+				FB15E0F12D8D2DA1004D7F02 /* PokemonAvatar.swift */,
+			);
+			path = Pokedex;
+			sourceTree = "<group>";
+		};
 		FB585BC02D88CCFE00685A76 = {
 			isa = PBXGroup;
 			children = (
@@ -72,8 +106,15 @@
 				FB585BDD2D88CD3D00685A76 /* ContentView.swift */,
 				FB585BE42D89FA4700685A76 /* TextsView.swift */,
 				FBAE08792D8B1C1900568BF6 /* ButtonsViews.swift */,
+				FB15E0DC2D8C5AB8004D7F02 /* ButtonGirlCoding.swift */,
+				FB15E0DE2D8C6644004D7F02 /* CustomButton.swift */,
+				FB15E0E02D8C79B7004D7F02 /* JobsCard.swift */,
+				FB15E0E22D8C8011004D7F02 /* TimCookCard.swift */,
+				FB15E0E42D8C8049004D7F02 /* SectionScrollView.swift */,
+				FB15E0E62D8D103F004D7F02 /* ComponentsView1.swift */,
 				FBAE08772D8B122800568BF6 /* Fonts.swift */,
 				FB585BDE2D88CD3D00685A76 /* FirstAppSwiftUIApp.swift */,
+				FB15E0EC2D8D29C1004D7F02 /* Pokedex */,
 				FB585BDC2D88CD3D00685A76 /* Assets.xcassets */,
 				FBAE08752D8B11DA00568BF6 /* GameOfSquids.ttf */,
 				FB585BDB2D88CD3D00685A76 /* Preview Content */,
@@ -143,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB585BE22D88CD3D00685A76 /* Preview Assets.xcassets in Resources */,
+				FB15E0E92D8D2972004D7F02 /* pokemons.json in Resources */,
 				FBAE08762D8B11DB00568BF6 /* GameOfSquids.ttf in Resources */,
 				FB585BE32D88CD3D00685A76 /* Assets.xcassets in Resources */,
 			);
@@ -156,8 +198,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBAE08782D8B122800568BF6 /* Fonts.swift in Sources */,
+				FB15E0E32D8C8011004D7F02 /* TimCookCard.swift in Sources */,
+				FB15E0EE2D8D2A8E004D7F02 /* PokemonListView.swift in Sources */,
+				FB15E0E12D8C79B7004D7F02 /* JobsCard.swift in Sources */,
+				FB15E0F22D8D2DA1004D7F02 /* PokemonAvatar.swift in Sources */,
+				FB15E0EB2D8D29AD004D7F02 /* Model.swift in Sources */,
+				FB15E0F02D8D2C6B004D7F02 /* PokemonCell.swift in Sources */,
 				FB585BE02D88CD3D00685A76 /* ContentView.swift in Sources */,
 				FB585BE52D89FA4700685A76 /* TextsView.swift in Sources */,
+				FB15E0DD2D8C5BD4004D7F02 /* ButtonGirlCoding.swift in Sources */,
+				FB15E0DF2D8C6644004D7F02 /* CustomButton.swift in Sources */,
+				FB15E0E52D8C8049004D7F02 /* SectionScrollView.swift in Sources */,
+				FB15E0E72D8D103F004D7F02 /* ComponentsView1.swift in Sources */,
 				FBAE087A2D8B1C1900568BF6 /* ButtonsViews.swift in Sources */,
 				FB585BE12D88CD3D00685A76 /* FirstAppSwiftUIApp.swift in Sources */,
 			);

@@ -9,89 +9,100 @@ import SwiftUI
 
 struct ButtonsViews: View {
     var body: some View {
-        VStack {
-            Button("Click me!") {
-                print("You have clicked me!")
-            }
-            
-            Button("Distroy me", role: .destructive) {
-                print("You have distroyed me!")
-            }
-            .buttonStyle(.bordered)
-            
-            Button("Pulse", systemImage: "person") {
-                print("")
-            }
-            .buttonStyle(.borderedProminent)
-            
-            Button {
-                print("Sent!")
-            } label: {
-                Image(systemName: "paperplane")
-                    .symbolVariant(.fill)
-            }
-            .buttonStyle(.borderedProminent)
-            .buttonBorderShape(.circle)
-            
-            Button {
+        ScrollView {
+            VStack {
+                Button("Click me!") {
+                    print("You have clicked me!")
+                }
                 
-            } label: {
-                Text("Click me!")
-            }
-            .buttonStyle(.bordered)
-            .tint(.green)
-            .buttonBorderShape(.capsule)
-            .controlSize(.large)
-//            .buttonRepeatBehavior(.enabled)
-            
-            
-            Button {
+                Button("Distroy me", role: .destructive) {
+                    print("You have distroyed me!")
+                }
+                .buttonStyle(.bordered)
                 
-            } label: {
-                HStack {
-                    Image(.girlCodingWithLaptop)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 100)
+                Button("Pulse", systemImage: "person") {
+                    print("")
+                }
+                .buttonStyle(.borderedProminent)
+                
+                Button {
+                    print("Sent!")
+                } label: {
+                    Image(systemName: "paperplane")
+                        .symbolVariant(.fill)
+                }
+                .buttonStyle(.borderedProminent)
+                .buttonBorderShape(.circle)
+                
+                Button {
                     
-                    Text("Vamos a estudiar")
-                        .font(.title)
-                        .multilineTextAlignment(.leading)
-                        .foregroundStyle(.white)
+                } label: {
+                    Text("Click me!")
                 }
-                .padding()
-                .background(.linearGradient(colors: [.blue, .blue.opacity(0.2)], startPoint: .top, endPoint: .bottom))
-                .background(in: .rect(cornerRadius: 10))
-                .shadow(color: .black.opacity(0.5), radius: 10, x: 0, y: 10)
-            }
-            .padding(.bottom)
-            
-            
-            Button {
+                .buttonStyle(.bordered)
+                .tint(.green)
+                .buttonBorderShape(.capsule)
+                .controlSize(.large)
+                //            .buttonRepeatBehavior(.enabled)
                 
-            } label: {
-                HStack {
-                    Image(.girlCodingWithLaptop)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 100)
+                
+                Button {
                     
-                    Text("Vamos a estudiar")
-                        .font(.title)
-                        .multilineTextAlignment(.leading)
-                        .foregroundStyle(.white)
+                } label: {
+                    HStack {
+                        Image(.girlCodingWithLaptop)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 100)
+                        
+                        Text("Vamos a estudiar")
+                            .font(.title)
+                            .multilineTextAlignment(.leading)
+                            .foregroundStyle(.white)
+                    }
+                    .padding()
+                    .background(.linearGradient(colors: [.blue, .blue.opacity(0.2)], startPoint: .top, endPoint: .bottom))
+                    .background(in: .rect(cornerRadius: 10))
+                    .shadow(color: .black.opacity(0.5), radius: 10, x: 0, y: 10)
                 }
+                .padding(.bottom)
+                
+                Button {
+                    
+                } label: {
+                    HStack {
+                        Text("Click me now!")
+                        Image(systemName: "person.crop.circle.fill")
+                    }
+                }
+                .buttonStyle(.custom)
                 .padding()
-                .background {
-                    RoundedRectangle(cornerRadius: 10)
-                        .fill(.linearGradient(colors: [.blue, .blue.opacity(0.2)], startPoint: .top, endPoint: .bottom))
-                        .shadow(color: .black.opacity(0.5), radius: 10, x: 0, y: 10)
-                }
+                
+                
+                ButtonGirlCoding(labelText: "Custom Text 1") {
+                    print("Custom action 1")
+                }.padding()
+                
+                ButtonGirlCoding(labelText: "Custom Text 1.2") {
+                    print("Custom action 1.2")
+                }.padding()
+                
+                ButtonGirlCoding(labelText: "Custom Text 2", image: .circles) {
+                    print("Custom action 2")
+                }.padding()
+                
+                ButtonGirlCoding(labelText: "Custom Text 2.2", image: .circles) {
+                    print("Custom action 2.2")
+                }.padding()
+                
+                Button {
+                    
+                } label: {
+                    JobsCard()
+                }.buttonStyle(.plain)
+                ShareLink(item: "Hello")
+
             }
-
-
-
-
         }
     }
 }
