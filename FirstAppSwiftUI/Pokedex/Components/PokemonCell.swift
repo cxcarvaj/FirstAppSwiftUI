@@ -20,7 +20,7 @@ struct PokemonCell: View {
                     .foregroundStyle(.secondary)
             }
             Spacer()
-            PokemonAvatar(imageUrl: pokemon.imageURL)
+            PokemonAvatar(pokemon: pokemon)
             
         }
     }

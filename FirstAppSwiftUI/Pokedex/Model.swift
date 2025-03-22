@@ -11,7 +11,7 @@ struct PokemonRoot: Codable {
     let pokemon: [Pokemon]
 }
 
-
+// Si uso Hashable en el struct, el Hash se calcularia en base a una mezcla entre sus propiedades
 struct Pokemon: Codable, Identifiable {
     let id = UUID()
     let name: String
@@ -20,6 +20,12 @@ struct Pokemon: Codable, Identifiable {
     
     enum CodingKeys: String, CodingKey {
         case name, type, imageURL
+    }
+}
+// Para que el hash sea calculado de forma distinta, sobrecargo el metodo Hashable en una extension
+extension Pokemon: Hashable {
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
     }
 }
 
