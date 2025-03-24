@@ -8,17 +8,22 @@
 import SwiftUI
 
 struct ButtonsViews: View {
+    @Binding var show: Bool
+    
     var body: some View {
         ScrollView {
             VStack {
                 Button("Click me!") {
                     print("You have clicked me!")
+                    show.toggle()
                 }
                 
                 Button("Distroy me", role: .destructive) {
                     print("You have distroyed me!")
+                    show.toggle()
                 }
                 .buttonStyle(.bordered)
+                .opacity(show ? 1.0 : 0.0)
                 
                 Button("Pulse", systemImage: "person") {
                     print("")
@@ -108,5 +113,7 @@ struct ButtonsViews: View {
 }
 
 #Preview {
-    ButtonsViews()
+    @Previewable @State var show: Bool = true
+//    ButtonsViews(show: .constant(Bool.random()))
+    ButtonsViews(show: $show)
 }

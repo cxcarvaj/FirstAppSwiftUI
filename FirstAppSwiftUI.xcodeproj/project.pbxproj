@@ -35,6 +35,11 @@
 		FBB541082D8EF66800801A4F /* PokemonWeirdStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB541072D8EF66800801A4F /* PokemonWeirdStackView.swift */; };
 		FBB5410B2D8EF9C100801A4F /* PokemonGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB5410A2D8EF9C100801A4F /* PokemonGrid.swift */; };
 		FBB5410D2D8EFFFE00801A4F /* TopThreePokemons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB5410C2D8EFFFE00801A4F /* TopThreePokemons.swift */; };
+		FBB5410F2D910FE300801A4F /* StatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB5410E2D910FE300801A4F /* StatesView.swift */; };
+		FBB541112D91184300801A4F /* PanelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB541102D91184300801A4F /* PanelsView.swift */; };
+		FBB541132D911C0900801A4F /* ComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB541122D911C0900801A4F /* ComposerView.swift */; };
+		FBF27A892D919AE5009403CE /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF27A882D919AE5009403CE /* CustomAlert.swift */; };
+		FBF27A8B2D919D2A009403CE /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF27A8A2D919D2A009403CE /* Toast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +73,11 @@
 		FBB541072D8EF66800801A4F /* PokemonWeirdStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonWeirdStackView.swift; sourceTree = "<group>"; };
 		FBB5410A2D8EF9C100801A4F /* PokemonGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonGrid.swift; sourceTree = "<group>"; };
 		FBB5410C2D8EFFFE00801A4F /* TopThreePokemons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopThreePokemons.swift; sourceTree = "<group>"; };
+		FBB5410E2D910FE300801A4F /* StatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesView.swift; sourceTree = "<group>"; };
+		FBB541102D91184300801A4F /* PanelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelsView.swift; sourceTree = "<group>"; };
+		FBB541122D911C0900801A4F /* ComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerView.swift; sourceTree = "<group>"; };
+		FBF27A882D919AE5009403CE /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+		FBF27A8A2D919D2A009403CE /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,8 +146,13 @@
 				FB15E0E22D8C8011004D7F02 /* TimCookCard.swift */,
 				FB15E0E42D8C8049004D7F02 /* SectionScrollView.swift */,
 				FB15E0E62D8D103F004D7F02 /* ComponentsView1.swift */,
-				FBAE08772D8B122800568BF6 /* Fonts.swift */,
 				FB585BDE2D88CD3D00685A76 /* FirstAppSwiftUIApp.swift */,
+				FBAE08772D8B122800568BF6 /* Fonts.swift */,
+				FBB5410E2D910FE300801A4F /* StatesView.swift */,
+				FBF27A882D919AE5009403CE /* CustomAlert.swift */,
+				FBF27A8A2D919D2A009403CE /* Toast.swift */,
+				FBB541102D91184300801A4F /* PanelsView.swift */,
+				FBB541122D911C0900801A4F /* ComposerView.swift */,
 				FB15E0EC2D8D29C1004D7F02 /* Pokedex */,
 				FB585BDC2D88CD3D00685A76 /* Assets.xcassets */,
 				FBAE08752D8B11DA00568BF6 /* GameOfSquids.ttf */,
@@ -237,8 +252,11 @@
 				FBA6DCDC2D8E6BBF00C52A5F /* PokemonListViewiPadColumns.swift in Sources */,
 				FBA6DCE02D8E79F100C52A5F /* PokemonDetailViewData.swift in Sources */,
 				FB15E0EE2D8D2A8E004D7F02 /* PokemonListView.swift in Sources */,
+				FBB541112D91184300801A4F /* PanelsView.swift in Sources */,
 				FB15E0E12D8C79B7004D7F02 /* JobsCard.swift in Sources */,
 				FB15E0F22D8D2DA1004D7F02 /* PokemonAvatar.swift in Sources */,
+				FBB541132D911C0900801A4F /* ComposerView.swift in Sources */,
+				FBB5410F2D910FE300801A4F /* StatesView.swift in Sources */,
 				FB15E0EB2D8D29AD004D7F02 /* Model.swift in Sources */,
 				FB15E0F02D8D2C6B004D7F02 /* PokemonCell.swift in Sources */,
 				FB585BE02D88CD3D00685A76 /* ContentView.swift in Sources */,
@@ -251,11 +269,13 @@
 				FBB5410D2D8EFFFE00801A4F /* TopThreePokemons.swift in Sources */,
 				FB15E0E52D8C8049004D7F02 /* SectionScrollView.swift in Sources */,
 				FBA6DCDE2D8E72BB00C52A5F /* PokemonListStackView.swift in Sources */,
+				FBF27A8B2D919D2A009403CE /* Toast.swift in Sources */,
 				FB15E0E72D8D103F004D7F02 /* ComponentsView1.swift in Sources */,
 				FBAE087A2D8B1C1900568BF6 /* ButtonsViews.swift in Sources */,
 				FBB541062D8E7CD200801A4F /* ToolbarModifier.swift in Sources */,
 				FB585BE12D88CD3D00685A76 /* FirstAppSwiftUIApp.swift in Sources */,
 				FBB541082D8EF66800801A4F /* PokemonWeirdStackView.swift in Sources */,
+				FBF27A892D919AE5009403CE /* CustomAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
