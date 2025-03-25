@@ -40,6 +40,7 @@
 		FBB541132D911C0900801A4F /* ComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB541122D911C0900801A4F /* ComposerView.swift */; };
 		FBF27A892D919AE5009403CE /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF27A882D919AE5009403CE /* CustomAlert.swift */; };
 		FBF27A8B2D919D2A009403CE /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF27A8A2D919D2A009403CE /* Toast.swift */; };
+		FBF27A8D2D91DC47009403CE /* ComponentsView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF27A8C2D91DC47009403CE /* ComponentsView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		FBB541122D911C0900801A4F /* ComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerView.swift; sourceTree = "<group>"; };
 		FBF27A882D919AE5009403CE /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
 		FBF27A8A2D919D2A009403CE /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		FBF27A8C2D91DC47009403CE /* ComponentsView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				FBF27A882D919AE5009403CE /* CustomAlert.swift */,
 				FBF27A8A2D919D2A009403CE /* Toast.swift */,
 				FBB541102D91184300801A4F /* PanelsView.swift */,
+				FBF27A8C2D91DC47009403CE /* ComponentsView2.swift */,
 				FBB541122D911C0900801A4F /* ComposerView.swift */,
 				FB15E0EC2D8D29C1004D7F02 /* Pokedex */,
 				FB585BDC2D88CD3D00685A76 /* Assets.xcassets */,
@@ -248,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBAE08782D8B122800568BF6 /* Fonts.swift in Sources */,
+				FBF27A8D2D91DC47009403CE /* ComponentsView2.swift in Sources */,
 				FB15E0E32D8C8011004D7F02 /* TimCookCard.swift in Sources */,
 				FBA6DCDC2D8E6BBF00C52A5F /* PokemonListViewiPadColumns.swift in Sources */,
 				FBA6DCE02D8E79F100C52A5F /* PokemonDetailViewData.swift in Sources */,
